@@ -1,0 +1,6 @@
+/build/*
+printer.iml
+.idea/*
+.gradle/*
+printer.ipr
+printer.iws
