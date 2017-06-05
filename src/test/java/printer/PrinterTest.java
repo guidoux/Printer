@@ -21,7 +21,7 @@ public class PrinterTest {
 
     @Test
     public void printsMessage() throws Exception {
-        printer.print("foo bar");
+        System.out.print("foo bar");
         assertThat(out.toString(), is("foo bar"));
     }
 }
